@@ -20,17 +20,6 @@ body {
 }
      /* The heart of the matter */
 
-     .horizontal-scrollable > .row {
-         overflow-x: auto;
-         white-space: nowrap;
-     }
-
-     .horizontal-scrollable > .row > .col-xs-4 {
-         display: inline-block;
-         float: none;
-     }
-     /* Decorations */
-
 .careercards {
   max-width: 250px;
   border: 1px solid grey;
@@ -45,17 +34,33 @@ body {
 <body>
 
 <div class="container">
+<h2>Nick Thien</h2>
+<h4>Writer | Editor | Tutor | Web Developer</h4>
+
+
+
+
+</div>
+
+
+
+<div class="container">
   <h2>Career</h2>
 
-  <div class="container" style="overflow-x: scroll;">
-    <div class="row d-flex" style="width: 1500px;">
+  <div class="container" style="overflow-x: hidden;">
+    <div class="row d-flex">
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_awespyre.png" class="img-fluid p-2" alt="Awespyre"></div>
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_fdg.png" class="img-fluid" alt="Fire dragoon"></div>
+      </div>
+    <div class="row d-flex">
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_gg.png" class="img-fluid" alt="Generasi Gemilang"></div>
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_vs.png" class="img-fluid" alt="Veloce Solutions"></div>
+      </div>
+    <div class="row d-flex">
+
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_lm.png" class="img-fluid" alt="Lil' Monsters"></div>
         <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_sas.png" class="img-fluid" alt="St. Andrew's School"></div>
-
+      </div>
     </div>
   </div>
 
@@ -66,10 +71,14 @@ body {
 <h2>Tools</h2>
 
   <div class="container">
-    <div class="row d-flex" style="width: 3000px;">
+    <div class="row d-flex">
       <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_davinci.png" class="img-fluid"></div>
       <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_gimp.png" class="img-fluid"></div>
+    </div>
+  <div class="row d-flex">
+
       <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_obs.png" class="img-fluid"></div>
+    </div>
     </div>
   </div>
 </div>
@@ -78,7 +87,7 @@ body {
 <h2>Education</h2>
 
 <div class="container">
-  <div class="row">
+  <div class="row d-flex">
 <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_utar.png" class="img-fluid"></div>
 <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_ubd.png" class="img-fluid"></div>
 </div>

@@ -1,2 +1,0 @@
-# nickthien
-My portfolio website

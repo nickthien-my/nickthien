@@ -48329,7 +48329,7 @@ N(a,b){var s=null,r=C.C1.i(0,200)
 return new M.rn(new E.oK(C.HE,!0,new E.FM(s,s,1/0,56),s),M.p8(s,T.a4n(H.a([new F.A9(s)],t.p),C.cO,C.du),C.x,r,s,s,s,s,new V.bc(20,20,20,20),s,s,s),s)}}
 F.A9.prototype={
 N(a,b){var s=null,r=K.Jv(15),q=C.Cb.i(0,100),p=t.p
-return M.p8(s,T.a4n(H.a([new K.wq(new L.oN("assets/thumb.jpg"),75,s),T.iT(s,20,s),L.Ui("NICHOLAS THIEN",A.kY(s,s,s,s,s,s,s,s,s,s,s,48,s,C.bs,s,s,!0,s,s,s,s,s,s,s,s),C.bc),T.iT(s,20,s),L.Ui("Writer | Tutor | Software Developer",A.kY(s,s,s,s,s,s,s,s,s,s,s,35,s,s,s,s,!0,s,s,s,s,s,s,s,s),C.bc),T.iT(s,20,s),T.a5V(H.a([L.a4S(C.yu),T.iT(s,s,10),L.Ui("nick.thien@gmail.com",A.kY(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s,s,s),s)],p),C.cN,C.mS,C.eT)],p),C.cN,C.du),C.x,s,s,new S.dR(q,s,s,r,s,s,C.Z),s,s,new V.bc(15,50,15,50),s,s,s)}}
+return M.p8(s,T.a4n(H.a([new K.wq(new L.oN("assets/thumb.jpg"),75,s),T.iT(s,20,s),L.Ui("NICHOLAS THIEN",A.kY(s,s,s,s,s,s,s,s,s,s,s,40,s,C.bs,s,s,!0,s,s,s,s,s,s,s,s),C.bc),T.iT(s,20,s),L.Ui("Writer | Tutor | Software Developer",A.kY(s,s,s,s,s,s,s,s,s,s,s,28,s,s,s,s,!0,s,s,s,s,s,s,s,s),C.bc),T.iT(s,20,s),T.a5V(H.a([L.a4S(C.yu),T.iT(s,s,10),L.Ui("nick.thien@gmail.com",A.kY(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,!0,s,s,s,s,s,s,s,s),s)],p),C.cN,C.mS,C.eT)],p),C.cN,C.du),C.x,s,s,new S.dR(q,s,s,r,s,s,C.Z),s,s,new V.bc(15,50,15,50),s,s,s)}}
 E.hD.prototype={
 gl(a){return this.b},
 i(a,b){if(b>=this.b)throw H.b(P.bd(b,this,null,null,null))

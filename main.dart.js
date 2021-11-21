@@ -46286,7 +46286,7 @@ return M.a29(this.r,s.b.ap(0,r.gt(r)),C.ef)}}
 K.uW.prototype={
 M(a,b){return this.e.$2(b,this.f)}}
 F.xY.prototype={
-M(a,b){return new S.pv(new F.xZ(null),"First Blog",null)}}
+M(a,b){return new S.pv(new F.xZ(null),"Nicholas Thien",null)}}
 F.xZ.prototype={
 M(a,b){var s=null,r=C.BK.i(0,200)
 return new M.qA(new E.o2(C.Hm,!0,new E.Ez(s,s,1/0,56),s),M.w2(s,T.a22(H.a([new F.z0(s)],t.p),C.cM,C.ds),r,s,s,new V.bb(20,20,20,20),s),s)}}

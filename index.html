@@ -1,101 +1,148 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!doctype html>
+<html lang="en">
+  <head>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Nick's Website">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="nickwebsite">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>nickwebsite</title>
-  <link rel="manifest" href="manifest.json">
+    <title>Nick Thien</title>
+
+<style>
+
+body {
+  background-color: lightblue;
+}
+     /* The heart of the matter */
+
+.container-1 {
+  background-color: lightgreen;
+}
+
+
+.careercards {
+  max-width: 250px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  float: left;
+}
+
+</style>
+
+
 </head>
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    var serviceWorkerVersion = '3904100138';
-    var scriptLoaded = false;
-    function loadMainDartJs() {
-      if (scriptLoaded) {
-        return;
-      }
-      scriptLoaded = true;
-      var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
-      scriptTag.type = 'application/javascript';
-      document.body.append(scriptTag);
-    }
 
-    if ('serviceWorker' in navigator) {
-      // Service workers are supported. Use them.
-      window.addEventListener('load', function () {
-        // Wait for registration to finish before dropping the <script> tag.
-        // Otherwise, the browser will load the script multiple times,
-        // potentially different versions.
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
-        navigator.serviceWorker.register(serviceWorkerUrl)
-          .then((reg) => {
-            function waitForActivation(serviceWorker) {
-              serviceWorker.addEventListener('statechange', () => {
-                if (serviceWorker.state == 'activated') {
-                  console.log('Installed new service worker.');
-                  loadMainDartJs();
-                }
-              });
-            }
-            if (!reg.active && (reg.installing || reg.waiting)) {
-              // No active web worker and we have installed or are installing
-              // one for the first time. Simply wait for it to activate.
-              waitForActivation(reg.installing || reg.waiting);
-            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
-              // When the app updates the serviceWorkerVersion changes, so we
-              // need to ask the service worker to update.
-              console.log('New service worker available.');
-              reg.update();
-              waitForActivation(reg.installing);
-            } else {
-              // Existing service worker is still good.
-              console.log('Loading app from service worker.');
-              loadMainDartJs();
-            }
-          });
+<div class="container">
+<h2>Nick Thien</h2>
+<h4>Writer | Editor | Tutor | Web Developer</h4>
 
-        // If service worker doesn't succeed in a reasonable amount of time,
-        // fallback to plaint <script> tag.
-        setTimeout(() => {
-          if (!scriptLoaded) {
-            console.warn(
-              'Failed to load app from service worker. Falling back to plain <script> tag.',
-            );
-            loadMainDartJs();
-          }
-        }, 4000);
-      });
-    } else {
-      // Service workers not supported. Just drop the <script> tag.
-      loadMainDartJs();
-    }
-  </script>
+
+
+
+</div>
+
+
+
+<div class="container-1">
+  <div class="container">
+    <h2  class="d-flex justify-content-center pt-5">Work Experience</h2>
+
+  <div class="row justify-content-around">
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_awespyre.png" class="img-fluid p-3" style="height: 100px;" alt="Awespyre"></div>
+      <h4>Business Owner | Awespyre</h4>
+      <p>2018 - Present</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_fdg.png" class="img-fluid p-3" style="height: 100px;" alt="Fire dragoon"></div>
+      <h4>Content Executive | Fire Dragoon Esports</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+  </div>
+
+  <div class="row justify-content-around">
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_gg.png" class="img-fluid p-3" style="height: 100px;" alt="Generasi Gemilang"></div>
+      <h4>Volunteer | Generasi Gemilang</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_vs.png" class="img-fluid p-3" style="height: 100px;" alt="Veloce Solutions"></div>
+      <h4>Customer Service Executive | Veloce Solutions</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+  </div>
+
+  <div class="row justify-content-around">
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_lm.png" class="img-fluid p-3" style="height: 100px;" alt="Lil' Monsters"></div>
+      <h4>Junior Executive | Lil' Monsters</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-lg-5 my-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_sas.png" class="img-fluid p-3" style="height: 100px;" alt="St. Andrew's School"></div>
+      <h4>Teacher | St. Andrew's School</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="container-2">
+
+
+<div class="container">
+<h2>Written Work</h2>
+
+
+    <div class="row d-flex">
+      <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_davinci.png" class="img-fluid"></div>
+      <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_gimp.png" class="img-fluid"></div>
+    </div>
+  <div class="row d-flex">
+
+      <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_obs.png" class="img-fluid"></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <h2>Video Content</h2>
+
+
+      <div class="row d-flex">
+        <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_davinci.png" class="img-fluid"></div>
+        <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_gimp.png" class="img-fluid"></div>
+      </div>
+    <div class="row d-flex">
+
+        <div class="careercards d-flex align-self-center justify-content-center"><img src="logo_obs.png" class="img-fluid"></div>
+      </div>
+      </div>
+    </div>
+
+<div class="container-3">
+
+
+<div class="container">
+  <h2>Education</h2>
+  <div class="row d-flex">
+<div class="careercards d-flex align-self-center justify-content-center"><img src="logo_utar.png" class="img-fluid"></div>
+<div class="careercards d-flex align-self-center justify-content-center"><img src="logo_ubd.png" class="img-fluid"></div>
+</div>
+</div>
 </body>
-</html>

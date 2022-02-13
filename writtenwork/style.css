@@ -6,6 +6,11 @@ body {
   font-family: 'Arimo', sans-serif;
 }
 
+.websiteHeader {
+  color: currentColor;
+  text-decoration: inherit;
+}
+
 .header {
   padding: 10px 10px;
   background: linear-gradient(rgba(143,188,143, 0.25), rgba(143,188,143, 0.5));

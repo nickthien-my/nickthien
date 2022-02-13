@@ -8,7 +8,7 @@ function latest(articles) {
   latestItems.forEach((item) => {
     const card = document.createElement('div');
     card.classList.add('card', 'm-2');
-    card.style.width = "16rem";
+    card.style.width = "18rem";
     const coverImg = document.createElement('img');
     coverImg.classList.add('card-img-top');
     coverImg.src = item.coverimg;
@@ -29,7 +29,7 @@ function latest(articles) {
     cardDate.textContent = item.date;
     cardBody.appendChild(cardDate);
     const cardLink = document.createElement('a');
-    cardLink.classList.add('card-link');
+    cardLink.classList.add('btn', 'btn-primary');
     cardLink.href = item.category + "/" + item.url;
     cardLink.textContent = "Read";
     cardBody.appendChild(cardLink);

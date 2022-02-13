@@ -13,7 +13,10 @@ body {
 
 .header {
   padding: 10px 10px;
-  background: linear-gradient(rgba(143,188,143, 0.25), rgba(143,188,143, 0.5));
+}
+
+.section{
+  border-bottom: 1px solid grey;
 }
 
 .card {

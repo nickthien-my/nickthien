@@ -1,11 +1,16 @@
-latest(articles);
+esports(articles);
 
-function latest(articles) {
-  var size = 3;
-  latestItems = articles.slice(0, size);
+function esports(articles) {
+  var size = 20;
 
-  var div = document.getElementById('rowLatest');
-  latestItems.forEach((item) => {
+  let esports = articles.filter(function (esportsFilter) {
+    return esportsFilter.category == "esports";
+  });
+
+  esportsItems = esports.slice(0, size);
+
+  var div = document.getElementById('rowEsports');
+  esportsItems.forEach((item) => {
     const card = document.createElement('div');
     card.classList.add('card', 'm-2');
     card.style.width = "18rem";

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  color: dimgrey;
+  background: linear-gradient(aliceblue, lightblue);
+  font-family: 'Arimo', sans-serif;
+}
+
+.websiteHeader {
+  color: currentColor;
+  text-decoration: inherit;
+}
+
+.header {
+  padding: 10px 10px;
+}
+
+.section{
+  border-bottom: 1px solid grey;
+}
+
+.card {
+  background: linear-gradient(rgba(143,188,143, 0.25), rgba(143,188,143, 0.5));
+}
+
+.info {
+  padding: 10px 10px;
+  background: linear-gradient(rgba(143,188,143, 0), rgba(143,188,143, 0.75));
+}

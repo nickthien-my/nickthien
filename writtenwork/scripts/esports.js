@@ -33,7 +33,8 @@ function esports(articles) {
     cardBody.appendChild(cardDate);
     const cardLink = document.createElement('a');
     cardLink.classList.add('btn', 'btn-primary');
-    cardLink.href = item.category + "/" + item.url;
+    let baseAdd = "https://www.nickthien.com/writtenwork/";
+    cardLink.href = baseAdd + item.category + "/" + item.url;
     cardLink.textContent = "Read";
     cardBody.appendChild(cardLink);
     card.appendChild(cardBody);

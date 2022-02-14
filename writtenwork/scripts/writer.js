@@ -39,6 +39,15 @@ function writer(post) {
         textOut.innerHTML = item.output;
         div.appendChild(textOut);
         break;
+      case "list":
+        var listOut = document.createElement('ul');
+        item.ListItems.forEach((li) => {
+          var listItem = document.createElement('li');
+          listItem.innerHTML = li.listItem;
+          listOut.appendChild(listItem);
+        })
+        div.appendChild(listOut);
+        break;
       default:
         break;
     }

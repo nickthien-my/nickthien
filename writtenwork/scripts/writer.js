@@ -41,8 +41,8 @@ function writer(post) {
         break;
       case "list":
         var listOut = document.createElement('ul');
+        var listItem = document.createElement('li');
         item.listItems.forEach((li) => {
-          var listItem = document.createElement('li');
           listItem.innerHTML = li.listItem;
           listOut.appendChild(listItem);
         })

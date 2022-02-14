@@ -1,8 +1,6 @@
 esports(articles);
 
 function esports(articles) {
-  articles.date.sort();
-
   let esports = articles.filter(function (esportsFilter) {
     return esportsFilter.category == "esports";
   });

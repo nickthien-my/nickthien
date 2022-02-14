@@ -1,8 +1,6 @@
 esports(articles);
 
 function esports(articles) {
-  var size = 3;
-
   let esports = articles.filter(function (esportsFilter) {
     return esportsFilter.category == "esports";
   });

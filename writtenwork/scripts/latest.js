@@ -1,7 +1,6 @@
 latest(articles);
 
 function latest(articles) {
-  var size = 3;
   latestItems = articles.slice(0, size);
 
   var div = document.getElementById('rowLatest');

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 body {
-  color: dimgrey;
+  color: rgb(105,105,105);
   background: linear-gradient(aliceblue, lightblue);
   font-family: 'Arimo', sans-serif;
 }

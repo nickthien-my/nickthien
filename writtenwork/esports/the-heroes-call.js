@@ -8,7 +8,7 @@ const post =
   "body": [
     {
       "type": "text",
-      "output": "Our <em>Fire Dragoon Overwatch</em> team will be competing at <em>C2AGE X-Treme 2017</em> this weekend. Together with the actual game itself, the team has been getting quite a bit of exposure lately due to the multitude of events that the Overwatch community here in Malaysia has been having.<br>Although it's one of the youngest esports community compared to the rest, it is one of the fastest growing. We thought that it would be a good opportunity now leading up to C2AGE X-Treme to showcase some of the bigger events that our team has played at and take a look at some of the upcoming Overwatch competitions happening locally as well as globally.<br>",
+      "output": "Our <em>Fire Dragoon Overwatch</em> team will be competing at <em>C2AGE X-Treme 2017</em> this weekend. Together with the actual game itself, the team has been getting quite a bit of exposure lately due to the multitude of events that the Overwatch community here in Malaysia has been having.<br>Although it's one of the youngest esports community compared to the rest, it is one of the fastest growing. We thought that it would be a good opportunity now leading up to C2AGE X-Treme to showcase some of the bigger events that our team has played at and take a look at some of the upcoming Overwatch competitions happening locally as well as globally.",
     },
     {
       "type": "header",

@@ -5,6 +5,8 @@ function esports(articles) {
     return esportsFilter.category == "esports";
   });
 
+  esports.date.sort();
+
   esportsItems = esports.slice(0, size);
 
   var div = document.getElementById('rowEsports');

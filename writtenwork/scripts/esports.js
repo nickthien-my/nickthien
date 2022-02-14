@@ -1,11 +1,11 @@
 esports(articles);
 
 function esports(articles) {
+  articles.date.sort();
+
   let esports = articles.filter(function (esportsFilter) {
     return esportsFilter.category == "esports";
   });
-
-  esports.date.sort();
 
   esportsItems = esports.slice(0, size);
 

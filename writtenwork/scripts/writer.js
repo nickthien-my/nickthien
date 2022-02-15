@@ -44,7 +44,7 @@ function writer(post) {
         item.listItems.forEach((li) => {
           var listItem = document.createElement('li');
           listItem.innerHTML = li.listItem;
-          document.querySelector(listOut).appendChild(listItem);
+          listOut.appendChild(listItem);
         })
         div.appendChild(listOut);
         break;

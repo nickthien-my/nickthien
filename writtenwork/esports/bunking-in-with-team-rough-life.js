@@ -35,9 +35,17 @@ const post =
       "listItems": [
         {
           "listItem": "TOP : <a href='https://www.facebook.com/Jus.TZX'>Justin 'RL jarlax' Tung</a>",
+        },
+        {
           "listItem": "JUNGLE : <a href='https://www.facebook.com/Loo.kahyew1'>Loo 'RL Lavender' Kah Yew</a>",
+        },
+        {
           "listItem": "MID : <a href='https://www.facebook.com/yap.liyaw'>Yap 'RL Arxues' Li Aw</a>",
+        },
+        {
           "listItem": "ADC : <a href='https://www.facebook.com/myhero.myboss'>Khoo 'RL Albin' El Bin</a>",
+        },
+        {
           "listItem": "SP : <a href='https://www.facebook.com/LewisLife24'>Louis 'RL Imanotgod' Wong</a>",
         }
       ]

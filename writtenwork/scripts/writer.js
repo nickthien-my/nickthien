@@ -10,9 +10,9 @@ function title(post) {
 function header(post) {
   const div = document.getElementById('info');
   const articleCategoryLink = document.createElement('a');
+  articleCategoryLink.classList.add('categoryLink');
   articleCategoryLink.href = "https://www.nickthien.com/writtenwork/" + post.category;
   const articleCategory = document.createElement('h4');
-  articleCategory.classList.add('categoryLink');
   articleCategory.textContent = post.category;
   articleCategoryLink.appendChild(articleCategory);
   div.appendChild(articleCategoryLink);

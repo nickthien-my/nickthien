@@ -1,6 +1,11 @@
+title(post);
 header(post);
 coverImg(post);
 writer(post);
+
+function title(post) {
+  document.title = post.title;
+}
 
 function header(post) {
   const div = document.getElementById('info');

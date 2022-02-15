@@ -9,6 +9,13 @@ function title(post) {
 
 function header(post) {
   const div = document.getElementById('info');
+  const articleCategoryLink = document.createElement('a');
+  articleCategoryLink.href = "https://www.nickthien.com/writtenwork/" + post.category;
+  const articleCategory = document.createElement('h4');
+  articleCategory.classList.add('categoryLink');
+  articleCategory.textContent = post.category;
+  articleCategoryLink.appendChild(articleCategory);
+  div.appendChild(articleCategoryLink);
   const articleTitle = document.createElement('h2');
   articleTitle.textContent = post.title;
   div.appendChild(articleTitle);

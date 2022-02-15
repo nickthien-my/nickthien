@@ -11,6 +11,12 @@ body {
   text-decoration: inherit;
 }
 
+.categoryLink {
+  text-transform: uppercase;
+  color: currentColor;
+  text-decoration: inherit;
+}
+
 .header {
   padding: 10px 10px;
 }
@@ -24,5 +30,5 @@ body {
 }
 
 .info {
-  background: linear-gradient(rgba(143,188,143, 0), rgba(143,188,143, 0.75));
+  background: linear-gradient(rgba(143,188,143, 0.25), rgba(143,188,143, 0.75));
 }

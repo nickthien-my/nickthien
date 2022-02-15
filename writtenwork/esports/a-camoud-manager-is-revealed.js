@@ -7,7 +7,7 @@ const post = {
   "body": [
     {
       "type": "text",
-      "output": "Our new <em>League of Legends</em>' manager, <em>Matthew \"Camou\" Chan</em>, is pretty well known in the Malaysian League circles. But for the sake of everyone else, we dragged him out of the office to have a short conversation with him to get to know our new manager better.",
+      "output": "Our new <em>League of Legends</em>' manager, Matthew \"Camou\" Chan, is pretty well known in the Malaysian League circles. But for the sake of everyone else, we dragged him out of the office to have a short conversation with him to get to know our new manager better.",
     },
     {
       "type": "text",

@@ -16,7 +16,7 @@ function header(post) {
   articleCategory.textContent = post.category;
   articleCategoryLink.appendChild(articleCategory);
   div.appendChild(articleCategoryLink);
-  const articleTitle = document.createElement('h2');
+  const articleTitle = document.createElement('h1');
   articleTitle.textContent = post.title;
   div.appendChild(articleTitle);
   const articleSubtitle = document.createElement('h5');

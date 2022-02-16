@@ -4,6 +4,7 @@ body {
   color: rgb(105,105,105);
   background: linear-gradient(aliceblue, lightblue);
   font-family: 'Arimo', sans-serif;
+  font-size: 1.2rem;
 }
 
 .websiteHeader {
@@ -30,5 +31,5 @@ body {
 }
 
 .info {
-  background: linear-gradient(rgba(143,188,143, 0.25), rgba(143,188,143, 0.75));
+  border-bottom: 1px solid grey;
 }

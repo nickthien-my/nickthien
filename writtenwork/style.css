@@ -2,7 +2,7 @@
 
 body {
   color: rgb(105,105,105);
-  background: linear-gradient(rgba(240,248,255,0.25), rgba(240,248,255,0.75));
+  background: linear-gradient(rgba(240,248,255), rgba(250,258,265));
   font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
 }

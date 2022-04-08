@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Send+Flowers&display=swap');
+
+body {
+    background-color: #D3D3D3;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#profilePicture {
+    display: block;
+    height: 100px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#caption {
+    font-family: 'Send Flowers', cursive;
+    font-size:3rem;
+}
+
+.altBackground {
+    background-color: aquamarine;
+}
+
+.careercards {
+    max-width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+  }

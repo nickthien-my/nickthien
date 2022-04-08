@@ -5,67 +5,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
-    <title>Nick Thien</title>
 
-<style>
-
-body {
-  background-color: rgba(66, 66, 66, 1.0);
-}
-
-.container-1 {
-  padding: 50px;
-  background-color:  rgba(158, 158, 158, 1.0);
-}
-
-.container-2 {
-  padding: 50px;
-  background-color:  rgba(158, 158, 158, 1.0);
-}
-
-.careercards {
-  max-width: 250px;
-  border: 1px solid grey;
-  border-radius: 10px;
-  padding: 25px;
-}
-
-</style>
-
+    <title>Nicholas Thien</title>
 
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Nick Thien</a>
+      <a class="navbar-brand" href="#">Nicholas Thien</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown05">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="./portfolio">Portfolio</a>
           </li>
         </ul>
         <form>
@@ -75,16 +40,22 @@ body {
     </div>
   </nav>
 
-<div class="container-1">
-  <div class="container">
-    <h2>Nick Thien</h2>
-    <h4>Writer | Tutor | Software Developer</h4>
+  <div class="container my-5 p-5">
+    <img id="profilePicture" class="my-5" src="./img/profilephoto.jpg">
+    <div class="m-3">
+      <h1 class="d-flex justify-content-center" style="font-size:3.5rem;">NICHOLAS THIEN</h1>
+      <h4 class="d-flex justify-content-center">Software Developer</h4>
+    </div>
   </div>
-</div>
 
-<div class="container-2">
-  <div class="container">
-    <h2  class="d-flex justify-content-center my-5">WORK EXPERIENCE</h2>
+  <div class="container my-5 p-5">
+    <div class="row justify-content-center">
+      <div class="col-8" id="quote"></div>
+    </div>
+  </div>
+
+  <div class="container altBackground p-5">
+    <h1 class="d-flex justify-content-center my-5">PORTFOLIO</h1>
 
   <div class="row justify-content-evenly">
     <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
@@ -125,7 +96,117 @@ body {
     </div>
   </div>
 
+<!--  <div class="container">
+    <h2  class="d-flex justify-content-center my-5">WORK EXPERIENCE</h2>
+
+  <div class="row justify-content-evenly">
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_awespyre.png" class="img-fluid p-3" style="height: 100px;" alt="Awespyre"></div>
+      <h4>Business Owner | Awespyre</h4>
+      <p>2018 - Present</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_fdg.png" class="img-fluid p-3" style="height: 100px;" alt="Fire dragoon"></div>
+      <h4>Content Executive | Fire Dragoon Esports</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_gg.png" class="img-fluid p-3" style="height: 100px;" alt="Generasi Gemilang"></div>
+      <h4>Volunteer | Generasi Gemilang</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_vs.png" class="img-fluid p-3" style="height: 100px;" alt="Veloce Solutions"></div>
+      <h4>Customer Service Executive | Veloce Solutions</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_lm.png" class="img-fluid p-3" style="height: 100px;" alt="Lil' Monsters"></div>
+      <h4>Junior Executive | Lil' Monsters</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+    <div class="col-sm-12 col-md-8 col-lg-4 m-3" style="border: solid 1px green; border-radius: 10px; background-color: white;">
+      <div class="d-flex justify-content-center"><img src="./img/logo/logo_sas.png" class="img-fluid p-3" style="height: 100px;" alt="St. Andrew's School"></div>
+      <h4>Teacher | St. Andrew's School</h4>
+      <p>2017</p>
+      <p>Started a co-working space to help other SME / Entreprenuers with an affordable and safe space to meet and exchange ideas.</p>
+    </div>
+  -->
+
   </div>
 </div>
 
+<script>
+  var quotes = [
+  {
+    "quote": "The desire to create is one of the deepest yearnings of the human soul.",
+    "author": "Dieter F. Uchtdorf",
+  },
+  {
+    "quote": "Creativity doesn't wait for that perfect moment. It fashions its own perfect moments out of ordinary ones.",
+    "author": "Bruce Garrabrandt",
+  },
+  {
+    "quote": "You can't use up creativity. The more you use the more you have.",
+    "author": "Maya Angelou",
+  },
+  {
+    "quote": "To practice any art, no matter how well or badly, is a way to make your soul grow. So do it.",
+    "author": "Kurt Vonnegut",
+  },
+  {
+    "quote": "Creativity involves breaking out of expected patterns in order to look at things in a different way.",
+    "author": "Edward de Bono",
+  },
+  {
+    "quote": "All our dreams can come true, if we have the courage to pursue them.",
+    "author": "Walt Disney",
+  },
+  {
+    "quote": "I've missed more than 9,000 shots in my career. I've lost almost 300 games. 26 times I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life and that is why I succeed.",
+    "author": "Michael Jordan",
+  },
+  {
+    "quote": "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
+    "author": "Neil Gaiman",
+  },
+  {
+    "quote": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+  },
+  {
+    "quote": "Your passion is waiting for your courage to catch up.",
+    "author": "Isabelle Lafleche",
+  },
+  {
+    "quote": "Hold the vision, trust the process.",
+    "author": "Unknown",
+  },
+  {
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+  }
+];
+
+let x = Math.floor((Math.random() * quotes.length));
+
+console.log(x + quotes[x].quote);
+
+var output = "";
+output += "<p class='d-flex justify-content-center' id='caption'>" + quotes[x].quote + "</p>";
+output += "<p class='d-flex justify-content-end'>- <em>" + quotes[x].author + "</em></p>";
+        
+  document.getElementById("quote").innerHTML = output;
+
+
+</script>
+
 </body>
+
+<footer></footer>
+

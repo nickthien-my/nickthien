@@ -41,16 +41,16 @@
   </nav>
 
   <div class="container my-5 p-5">
-    <img id="profilePicture" src="./img/profilephoto.jpg">
+    <img id="profilePicture" class="mb-5" src="./img/profilephoto.jpg">
     <div class="m-3">
-      <h1 class="d-flex justify-content-center" style="font-size:3.5rem;">NICHOLAS THIEN</h1>
+      <h1 class="d-flex justify-content-center pb-3" style="font-size:2.5rem;">NICHOLAS THIEN</h1>
       <h4 class="d-flex justify-content-center">Software Developer</h4>
     </div>
   </div>
 
   <div class="container my-5">
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-sm-19=0" id="quote"></div>
+      <div class="col-lg-8 col-sm-10 m-5 p-5" id="quote"></div>
     </div>
   </div>
 
@@ -198,7 +198,7 @@ let x = Math.floor((Math.random() * quotes.length));
 console.log(x + quotes[x].quote);
 
 var output = "";
-output += "<p class='d-flex justify-content-center' id='caption'>" + quotes[x].quote + "</p>";
+output += "<p class='d-flex justify-content-center' id='caption'><strong>" + quotes[x].quote + "</strong></p>";
 output += "<p class='d-flex justify-content-end'>- <em>" + quotes[x].author + "</em></p>";
         
   document.getElementById("quote").innerHTML = output;

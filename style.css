@@ -7,14 +7,14 @@ body {
 
 #profilePicture {
     display: block;
-    height: 100px;
+    height: 150px;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 75px;
 }
 
 #caption {
     font-family: 'Send Flowers', cursive;
-    font-size:3rem;
+    font-size:1.25rem;
 }
 
 .altBackground {

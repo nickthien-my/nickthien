@@ -4,7 +4,7 @@ const post = {
   "date": "2017-8-18",
   "title": "A Camou'd Manager is Revealed!",
   "subtitle": "A day out with our new League of Legends' manager.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {
@@ -18,7 +18,7 @@ const post = {
   "date": "2017-11-13",
   "title": "Box Scores (13/11/2017)",
   "subtitle": "Check out all of FDG's scores at a glance.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

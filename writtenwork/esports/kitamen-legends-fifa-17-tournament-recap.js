@@ -2,7 +2,7 @@ const post = {
     "date": "2017-7-25",
     "title": "Kitamen Legends FIFA 17 Tournament Recap",
     "subtitle": "A recap of last week's event at the Kitamen Legends FIFA 17 Tournament.",
-    "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+    "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
     "category": "esports",
     "body": [
       {

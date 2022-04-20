@@ -2,7 +2,7 @@ const post = {
   "date": "2017-9-14",
   "title": "Fire Dragoon's ROG Masters Primer",
   "subtitle": "Catch up with our CS:GO and Dota 2 team before the big event.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

@@ -2,7 +2,7 @@ const post = {
   "date": "2017-6-08",
   "title": "FDG Gathering",
   "subtitle": "A short meet and greet among the players as well as a talk on sports psychology.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

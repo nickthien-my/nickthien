@@ -2,7 +2,7 @@ const post = {
     "date": "2017-11-17",
     "title": "The CSGO Report",
     "subtitle": "After close to a month of competing overseas, these are some of the experiences that our players have left with.",
-    "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+    "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
     "category": "esports",
     "body": [
       {

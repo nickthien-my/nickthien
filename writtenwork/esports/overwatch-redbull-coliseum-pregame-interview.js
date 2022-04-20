@@ -3,7 +3,7 @@ const post =
   "date": "2017-10-04",
   "title": "Overwatch Redbull Coliseum Pre-game Interview",
   "subtitle": "Before taking the fight to the Redbull Coliseum, we check in on the Overwatch team.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

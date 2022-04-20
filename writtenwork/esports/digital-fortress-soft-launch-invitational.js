@@ -2,7 +2,7 @@ const post = {
     "date": "2017-8-09",
     "title": "Digital Fortress Soft Launch Invitational - Post-Match Interview",
     "subtitle": "We talk to Taz and YooNgHwe'1 about their team's recent Invitational at Digital Fortress.",
-    "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+    "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
     "category": "esports",
     "body": [
       {

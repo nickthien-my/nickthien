@@ -3,7 +3,7 @@ const post =
   "date": "2017-7-12",
   "title": "The Heroes' Call",
   "subtitle": "Taking a look at some of the up and coming events happening around Overwatch.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

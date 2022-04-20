@@ -1,9 +1,9 @@
 const post =
 {
   "date": "2017-08-16",
-  "title": "TLC (MY) Summer Season’s Outstanding Rookie JLKC Interview",
+  "title": "TLC (MY) Summer Season\'s Outstanding Rookie JLKC Interview",
   "subtitle": "Getting to know our 'Outstanding Rookie''s thoughts after his awards.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

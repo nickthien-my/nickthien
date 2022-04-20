@@ -2,7 +2,7 @@ const post = {
   "date": "2017-7-19",
   "title": "The 9K Mindset",
   "subtitle": "In less than year, 'AlaCrity - has made significant waves in the Dota 2 community. What drives him to achieve so much?",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

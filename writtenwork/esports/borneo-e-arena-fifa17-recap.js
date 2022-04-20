@@ -2,7 +2,7 @@ const post = {
     "date": "2017-9-18",
     "title": "Borneo e-Arena FIFA17 Recap",
     "subtitle": "AmTuah and Shige continue their away games, this time travelling to Sabah for Borneo e-Arena.",
-    "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+    "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
     "category": "esports",
     "body": [
       {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Send+Flowers&display=swap');
 
 body {
-    background-color: #D3D3D3;
+    background-color: rgb(240, 240, 240);
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -13,7 +13,7 @@ body {
 }
 
 #quote {
-    border: 1px solid black;
+    border: 1px solid rgb(50, 50, 50);
     border-radius: 25px;
     background-color: white;
 }
@@ -23,8 +23,12 @@ body {
     font-size:2rem;
 }
 
+#author {
+    font-size:1.5rem;
+}
+
 .altBackground {
-    background-color: aquamarine;
+    background-color: rgb(220, 220, 220);
 }
 
 .careercards {

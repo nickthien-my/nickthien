@@ -53,6 +53,6 @@ var quotes = [
 
   var output = "";
   output += "<p class='d-flex justify-content-center' id='caption'><strong>" + quotes[x].quote + "</strong></p>";
-  output += "<p class='d-flex justify-content-end'>- <em>" + quotes[x].author + "</em></p>";
+  output += "<p class='d-flex justify-content-end' id='author'>- <em>" + quotes[x].author + "</em></p>";
           
 document.getElementById("quote").innerHTML = output;

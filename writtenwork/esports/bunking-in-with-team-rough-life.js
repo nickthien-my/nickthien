@@ -3,7 +3,7 @@ const post =
   "date": "2017-11-2",
   "title": "Bunking in With Team Rough Life",
   "subtitle": "Extending a helping hand to the Malaysian representatives of ieSF LoL World Championship 2017.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

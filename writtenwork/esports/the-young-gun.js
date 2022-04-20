@@ -3,7 +3,7 @@ const post =
   "date": "2017-9-20",
   "title": "The Young Gun",
   "subtitle": "Getting to know the CS:GO team's youngest player.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

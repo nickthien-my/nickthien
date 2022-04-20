@@ -3,7 +3,7 @@ const post =
   "date": "2017-7-31",
   "title": "NVIDIA GeForce Day 2017 Penang Recap",
   "subtitle": "A recap of last week's event at the NVIDIA GeForce Day 2017 Penang.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

@@ -3,7 +3,7 @@ const post =
   "date": "2017-08-23",
   "title": "Team Interview | Pre-ESL Playoffs | Overwatch",
   "subtitle": "Part time team, full time heroes. Getting to know the FDG Overwatch team.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

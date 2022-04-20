@@ -2,7 +2,7 @@ const post = {
     "date": "2017-6-28",
     "title": "Weekly Wrap-Up - 18/7/2017",
     "subtitle": "Keeping you up to date with what happened in FDG over the past week.",
-    "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+    "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
     "category": "esports",
     "body": [
       {

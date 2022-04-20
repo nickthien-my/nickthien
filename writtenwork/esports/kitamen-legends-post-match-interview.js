@@ -3,7 +3,7 @@ const post =
   "date": "2017-7-26",
   "title": "Kitamen Legends FIFA 17 Tournament - Post Match Interview",
   "subtitle": "We met up with AmTuah and Shige to discuss their one-two win, life and the future of FIFA 17.",
-  "coverimg": "https://nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
+  "coverimg": "https://www.nickthien.com/writtenwork/img/placeholder/placeholder_esports_fdg.jpg",
   "category": "esports",
   "body": [
     {

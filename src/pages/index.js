@@ -1,35 +1,40 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react"
+import Layout from "../components/Layout"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <section className="py-5 text-center container">
-      <div className="row py-lg-5">
-        <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
-          />
-
+export default function Home() {
+  return (
+    <>
+      <Layout>
+        <div className="container">
+          <div className="row">
+          <ul>
+            <li>Twitter</li>
+            <li>LinkedIn</li>
+          </ul>
+          </div>
+          <div className="row">
+            <div className="col">
+            <p>Insert Photo</p>
+            </div>
+            <div className="col">
+            <h2>Nicholas Thien</h2>
+            <p>Web Developer | Teacher | Content Creator</p>
+            </div>
+<div className="row">
+  <div className="col">
+  <p>I have  worked, etc. etc</p>
+  <button>Get in touch</button>
+  <p>Download CV</p>
+  </div>
+</div>
+            <div className="row">
+              Scrolling Slideshow here!
+            </div>
+            
+          </div>
         </div>
-      </div>
-      <div className="row">
-        <Link to="/about/" className="btn btn-primary my-2">About</Link>
-        <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
-      </div>
-    </section>
-  </Layout>
-)
+      </Layout>
+    </>
 
-export default IndexPage
+  )
+}
